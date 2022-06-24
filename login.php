@@ -23,7 +23,7 @@
       //alert(xhttp.responseText);
       if(xhttp.responseText == "")
         window.location.href = "http://localhost/Pharmacy-Management/index.php";
-      if(xhttp.responseText == "true")
+      if(xhttp.responseText == "false")
         window.location.href = "http://localhost/Pharmacy-Management/home.php";
 
     </script>
